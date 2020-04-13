@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border: solid 2px;
+}
+
+th {
+    width: 33%;
+    background-color: cadetblue;
+    color: white;
+}
+
+td {
+    width: 33%;
+    background-color: lightgrey;
+    height: 40px;
+}
+
+form {
+    display: flex;
+}
+
+nav {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    background-color: lightgrey;
+    justify-content: baseline;
+    margin-bottom: 5px;
+    height: 70px;
+    font-family: "Times New Roman";
+}
+
+nav form {
+    height: 50px;
+    margin-right: 10px;
+    
+}
+nav form input {
+    border-collapse: collapse;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+input {
+    height: 50px;
+    padding: 0;
+}
+
+table button {
+    height: 30px;
+    min-width: 85px;
+}
+
+table button:hover {
+    border: black 2px double;
+}
+
+
+.actions {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.actions form {
+    padding-top: 4px;
+}
+
+#fileToUpload {
+    display: none;
+}
+
+#uploadFile {
+    display: flex;
+    flex-direction: column;
+    min-width: 85px;
+}
+
+#uploadFile label {
+    line-height: 25px;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 25px;
+    border: rgb(170,170,170) 0.2px solid;
+    vertical-align: middle;
+}
+
+#uploadFile input {
+    height: 25px;
+}
+
+#uploadFile label:hover {
+    border: rgb(120,120,120) 0.2px solid;
+}
+
+.delete {
+    background-color: rgb(250, 33, 33);
+    color: white;
+}
+
+.download {
+    background-color: rgb(32, 148, 21);
+    color: white;
+}
+
+#log_out {
+    text-align: right;
+    text-decoration: none;
+}
+
+#log_out a {
+    text-decoration: none;
+}
+
+#log_out a:hover {
+    color: red;
+}
+
+#create_folder_btn {
+    color: rgb(235, 153, 60);
+    font-size: large;
+}
+
+#home_btn {
+    color: rgb(32, 148, 21);
+    font-size: large;
+}
+
+#back_btn {
+    font-size: large;
+    font-weight: 900;
+    color: rgb(250, 33, 33) ;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    align-items: center;
+}
+
+#login h1 {
+    align-self: center;
+}
+
+#login div {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#login div label, input {
+    margin-bottom: 5px;
+}
+
+#login div input {
+    height: 2rem;
+}
+
+#login div button {
+    align-self: center;
+    height: 30px;
+}

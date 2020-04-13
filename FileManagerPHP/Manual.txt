@@ -1,0 +1,3 @@
+1. Put FileManagerPHP into ampps/www directory;
+2. Create directory Uploads in /FileManagerPHP/;
+3. Do not rename FileManagerPHP directory.
