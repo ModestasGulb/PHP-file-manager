@@ -7,10 +7,12 @@
 
 <body>
     <?php
-
+    
+    session_start();
+    
     // Logout logic
 
-    session_start();
+    
     if ($_GET['logout'] == true) {
         session_destroy();
         header('Location:/FileManagerPHP/');
